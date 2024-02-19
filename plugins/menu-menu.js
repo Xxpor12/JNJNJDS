@@ -110,6 +110,10 @@ let menu =`
  *┃➤* _${usedPrefix}Nexterra_
  *┃➤* _${usedPrefix}Kalahari_
  *┃➤* _${usedPrefix}Alpes_
+ *┃➤* _${usedPrefix}Agenda_
+ *┃➤* _${usedPrefix}Lista4_
+ *┃➤* _${usedPrefix}Ficha_
+ *┃➤* _${usedPrefix}Apos_
   ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Preimum 🐧* 〕
@@ -294,10 +298,6 @@ let menu =`
  *┃➤* _${usedPrefix}delvoto | deletevoto_
   ╰━━━━━━━━━━━━━
 
-  ╭━〔 *🐧 Pingui Pornero 🐧* 〕
- *┃➤* _${usedPrefix}hornymenu_
-  ╰━━━━━━━━━━━━━
-  
   ╭━〔 *🐧 Pingui Convertidores 🐧* 〕
  *┃➤* _${usedPrefix}toimg | img | jpg *sticker*_
  *┃➤* _${usedPrefix}toanime | jadianime *foto*_
