@@ -106,6 +106,9 @@ let menu =`
  *┃➤* _${usedPrefix}VsMixto_
  *┃➤* _${usedPrefix}VsFem_
  *┃➤* _${usedPrefix}VsMasc_
+ *┃➤* _${usedPrefix}BsMixto_
+ *┃➤* _${usedPrefix}BsFem_
+ *┃➤* _${usedPrefix}BsMasc_
  *┃➤* _${usedPrefix}Bermuda_
  *┃➤* _${usedPrefix}Nexterra_
  *┃➤* _${usedPrefix}Kalahari_
