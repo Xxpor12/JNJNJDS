@@ -1,13 +1,13 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.Fem4);
+  m.reply(global.VsFem);
 };
-handler.command = /^(Fem4|fem4)$/i;
+handler.command = /^(VsFem|VsFem)$/i;
 export default handler;
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
 
-global.Fem4 = ` 
+global.VsFem = ` 
 ╭┈┈ ๑❀๑ •  *FEM* • ๑❀๑ ••:
 │
 │      ෆ _Encargadx:_  
