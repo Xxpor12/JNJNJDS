@@ -1,7 +1,5 @@
 import fs from 'fs'
-import moment from 'moment-timezone';
-import ct from 'countries-and-timezones'
-import { parsePhoneNumber } from 'libphonenumber-js'
+import moment from 'moment-timezone'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 const { levelling } = '../lib/levelling.js'
@@ -68,38 +66,24 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let username = conn.getName(who)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let pp = pinguiVidMenu.getRandom()
+let pp = gataVidMenu.getRandom()
 let pareja = global.db.data.users[m.sender].pasangan 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 //let fsizedoc = '1'.repeat(10)
-//let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: ig, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(pinguiMenu.getRandom())).buffer(), sourceUrl: redesMenu.getRandom() }}}
+//let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: ig, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(gataMenu.getRandom())).buffer(), sourceUrl: redesMenu.getRandom() }}}
 const numberToEmoji = { "0": "0️⃣", "1": "1️⃣", "2": "2️⃣", "3": "3️⃣", "4": "4️⃣", "5": "5️⃣", "6": "6️⃣", "7": "7️⃣", "8": "8️⃣", "9": "9️⃣", }
 let lvl = level
 let emoji = Array.from(lvl.toString()).map((digit) => numberToEmoji[digit] || "❓").join("")
 
-let fechaMoment, formatDate, nombreLugar, ciudad = null
-const phoneNumber = '+' + m.sender
-const parsedPhoneNumber = parsePhoneNumber(phoneNumber)
-const countryCode = parsedPhoneNumber.country
-const countryData = ct.getCountry(countryCode)
-const timezones = countryData.timezones
-const zonaHoraria = timezones.length > 0 ? timezones[0] : 'UTC'
-moment.locale(mid.idioma_code)
-let lugarMoment = moment().tz(zonaHoraria)
-if (lugarMoment) {
-fechaMoment = lugarMoment.format('llll [(]a[)]')
-formatDate = fechaMoment.charAt(0).toUpperCase() + fechaMoment.slice(1) 
-nombreLugar = countryData.name
-const partes = zonaHoraria.split('/')
-ciudad = partes[partes.length - 1].replace(/_/g, ' ')
-}else{
-lugarMoment = moment().tz('America/Lima')
-fechaMoment = lugarMoment.format('llll [(]a[)]')
-formatDate = fechaMoment.charAt(0).toUpperCase() + fechaMoment.slice(1) 
-nombreLugar = 'America'
-ciudad = 'Lima'
-}	
-let menu = `
+const lugarFecha = moment().tz('America/Lima')
+const formatoFecha = {
+weekdays: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+}
+lugarFecha.locale('es', formatoFecha)
+const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
+
+let menu =`
  ╭━〔 *🐧 Pingui Creador 🐧* 〕
 *┃➤ Creador : Pingui 🐧*
 *┃➤ Instagram : ${md} 😻*
@@ -544,8 +528,8 @@ let menu = `
  *┃➤* _${usedPrefix}añadirpinguicoins *@tag cantidad*_
   ╰━━━━━━━━━━━━━
 `.trim()
-await conn.sendFile(m.chat, pinguiImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
-//conn.sendFile(m.chat, pinguiVidMenu.getRandom(), 'pingui.mp4', menu, fkontak)
+await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 🐧', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
+//conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 	
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
@@ -554,7 +538,6 @@ console.log(e)}}
 
 //handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
 handler.command = /^(menucompleto|menu|\?)$/i
-handler.register = true
 export default handler
 
 const more = String.fromCharCode(8206)
