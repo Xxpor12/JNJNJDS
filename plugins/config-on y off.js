@@ -184,7 +184,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
   const type = (args[0] || '').toLowerCase();
   let isAll = false; const isUser = false;
   switch (type) {
-    case 'Welcome':
+    case 'welcome':
       if (!m.isGroup) {
         if (!isOwner) {
           global.dfail('group', m, conn);
@@ -196,7 +196,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.welcome = isEnable;
       break;
-    case 'Detect':
+    case 'detect':
       if (!m.isGroup) {
         if (!isOwner) {
           global.dfail('group', m, conn);
@@ -208,7 +208,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.detect = isEnable;
       break;
-    case 'Detect2':
+    case 'detect2':
       if (!m.isGroup) {
         if (!isOwner) {
           global.dfail('group', m, conn);
@@ -220,7 +220,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.detect2 = isEnable;
       break;
-    case 'Simsimi':
+    case 'simsimi':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
@@ -229,7 +229,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.simi = isEnable;
       break;
-    case 'Antiporno':
+    case 'antiporno':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -238,7 +238,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.antiporno = isEnable;
       break;
-    case 'Delete':
+    case 'delete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -247,7 +247,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.delete = isEnable;
       break;
-    case 'Antidelete':
+    case 'antidelete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -256,7 +256,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.antidelete = isEnable;
       break;
-    case 'Public':
+    case 'public':
       isAll = true;
       if (!isROwner) {
         global.dfail('rowner', m, conn);
@@ -264,7 +264,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       global.opts['self'] = !isEnable;
       break;
-    case 'Antilink':
+    case 'antilink':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -273,7 +273,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.antiLink = isEnable;
       break;
-    case 'Antilink2':
+    case 'antilink2':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -282,7 +282,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.antiLink2 = isEnable;
       break;
-    case 'Antiviewonce':
+    case 'antiviewonce':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -291,7 +291,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.antiviewonce = isEnable;
       break;
-    case 'Modohorny':
+    case 'modohorny':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
@@ -300,7 +300,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.modohorny = isEnable;
       break;
-    case 'Modoadmin':
+    case 'modoadmin':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
@@ -475,7 +475,7 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗕𝗼𝘁 🐧\n\n 𝗔𝗻𝘂𝗻𝗰𝗶𝗮 𝗤𝘂𝗲 𝗟𝗮 𝗢𝗽𝗰𝗶𝗼𝗻 *${type}* 𝗙𝘂𝗲 ${isEnable ? '𝗔𝗰𝘁𝗶𝘃𝗮𝗱𝗼' : '𝗗𝗲𝘀𝗮𝗰𝘁𝗶𝘃𝗮𝗱𝗼'} 𝗖𝗼𝗻 𝗘𝘅𝗶𝘁𝗼 𝗣𝗮𝗿𝗮 𝗘𝗹 ${isAll ? '𝗕𝗼𝘁' : isUser ? '' : '𝗚𝗿𝘂𝗽𝗼'}`}, {quoted: m});
+  conn.sendMessage(m.chat, {text: `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗕𝗼𝘁 🐧\n\n𝗔𝗻𝘂𝗻𝗰𝗶𝗮 𝗤𝘂𝗲 𝗟𝗮 𝗢𝗽𝗰𝗶𝗼𝗻 *${type}* 𝗙𝘂𝗲 ${isEnable ? '𝗔𝗰𝘁𝗶𝘃𝗮𝗱𝗼' : '𝗗𝗲𝘀𝗮𝗰𝘁𝗶𝘃𝗮𝗱𝗼'} 𝗖𝗼𝗻 𝗘𝘅𝗶𝘁𝗼 𝗣𝗮𝗿𝗮 𝗘𝗹 ${isAll ? '𝗕𝗼𝘁' : isUser ? '' : '𝗚𝗿𝘂𝗽𝗼'}`}, {quoted: m});
   //conn.sendMessage(m.chat, {text: `▢ *Opción:* ${type}\n\n▢ *Estado:* ${isEnable ? 'Activado' : 'Desactivado'}\n\n▢ *Para* ${isAll ? 'este bot' : isUser ? '' : 'este chat'}`}, {quoted: m});
 };
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;
