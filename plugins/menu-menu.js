@@ -119,7 +119,7 @@ let menu =`
  *┃➤* _${usedPrefix}Apos_
   ╰━━━━━━━━━━━━━
   
-  ╭━〔 *🐧 Pingui Preimum 🐧* 〕
+  ╭━〔 *🐧 Pingui Premium 🐧* 〕
  *┃➤* _${usedPrefix}listapremium | listprem_
  *┃➤* _${usedPrefix}pase premium_
  *┃➤* _${usedPrefix}pass premium_
