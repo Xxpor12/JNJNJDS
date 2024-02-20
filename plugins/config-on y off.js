@@ -184,7 +184,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
   const type = (args[0] || '').toLowerCase();
   let isAll = false; const isUser = false;
   switch (type) {
-    case 'welcome':
+    case 'Welcome':
       if (!m.isGroup) {
         if (!isOwner) {
           global.dfail('group', m, conn);
@@ -196,7 +196,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.welcome = isEnable;
       break;
-    case 'detect':
+    case 'Detect':
       if (!m.isGroup) {
         if (!isOwner) {
           global.dfail('group', m, conn);
@@ -208,7 +208,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.detect = isEnable;
       break;
-    case 'detect2':
+    case 'Detect2':
       if (!m.isGroup) {
         if (!isOwner) {
           global.dfail('group', m, conn);
@@ -220,7 +220,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.detect2 = isEnable;
       break;
-    case 'simsimi':
+    case 'Simsimi':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
@@ -229,7 +229,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.simi = isEnable;
       break;
-    case 'antiporno':
+    case 'Antiporno':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -238,7 +238,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.antiporno = isEnable;
       break;
-    case 'delete':
+    case 'Delete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -247,7 +247,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.delete = isEnable;
       break;
-    case 'antidelete':
+    case 'Antidelete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -256,7 +256,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.antidelete = isEnable;
       break;
-    case 'public':
+    case 'Public':
       isAll = true;
       if (!isROwner) {
         global.dfail('rowner', m, conn);
@@ -264,7 +264,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       global.opts['self'] = !isEnable;
       break;
-    case 'antilink':
+    case 'Antilink':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -273,7 +273,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.antiLink = isEnable;
       break;
-    case 'antilink2':
+    case 'Antilink2':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -282,7 +282,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.antiLink2 = isEnable;
       break;
-    case 'antiviewonce':
+    case 'Antiviewonce':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -291,7 +291,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.antiviewonce = isEnable;
       break;
-    case 'modohorny':
+    case 'Modohorny':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
@@ -300,7 +300,7 @@ const optionsFull = `🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗙𝘂𝗻𝗰𝗶𝗼𝗻�
       }
       chat.modohorny = isEnable;
       break;
-    case 'modoadmin':
+    case 'Modoadmin':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
