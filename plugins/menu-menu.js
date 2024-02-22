@@ -397,6 +397,10 @@ let menu =`
   
   ╭━〔 *🐧 Pingui Busqueda 🐧* 〕
  *┃➤* _${usedPrefix}animeinfo *texto*_
+ *┃➤* _${usedPrefix}anuel_
+ *┃➤* _${usedPrefix}conejo_
+ *┃➤* _${usedPrefix}drago_
+ *┃➤* _${usedPrefix}feid_
  *┃➤* _${usedPrefix}mangainfo *texto*_
  *┃➤* _${usedPrefix}google *texto*_
  *┃➤* _${usedPrefix}googlelyrics *texto*_
