@@ -17,12 +17,12 @@ const handler = async (m, {conn, command, participants, usedPrefix, text}) => {
     const group = groups2[i];
     const delay = i * 4000; // 4 seg
     setTimeout(async () => {
-      await conn.reply(group, `*╔══❰ 𝐂𝐎𝐌𝐔𝐍𝐈𝐂𝐀𝐃𝐎 ❱══╗*\n\n` + teks4, {mentions: usersTag2}, {quoted: fkontak});
+      await conn.reply(group, `*╔══❰ 🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗖𝗼𝗺𝘂𝗻𝗶𝗰𝗮𝗱𝗼 🐧 ❱══╗*\n\n` + teks4, {mentions: usersTag2}, {quoted: fkontak});
     }, delay);
   }
   for (const user of chats2) {
     await new Promise((resolve) => setTimeout(resolve, 2000)); // 2 segundos
-    await conn.reply(user, `*╔══❰ 𝐂𝐎𝐌𝐔𝐍𝐈𝐂𝐀𝐃𝐎 ❱══╗*\n\n` + teks4, fkontak, null);
+    await conn.reply(user, `*╔══❰ 🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗖𝗼𝗺𝘂𝗻𝗶𝗰𝗮𝗱𝗼 🐧 ❱══╗*\n\n` + teks4, fkontak, null);
     totalPri2++;
     if (totalPri2 >= 500000) {
       break;
