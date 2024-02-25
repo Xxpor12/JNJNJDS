@@ -117,6 +117,7 @@ let menu =`
  *┃➤* _${usedPrefix}Lista3_
  *┃➤* _${usedPrefix}Formulario_
  *┃➤* _${usedPrefix}Apos_
+ *┃➤* _${usedPrefix}Vv2_
   ╰━━━━━━━━━━━━━
 
   ╭━〔 *🐧 Pingui Spamer 🐧* 〕
