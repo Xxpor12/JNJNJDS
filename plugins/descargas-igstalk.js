@@ -40,7 +40,7 @@ conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()} *${mid.smsinfo}*`, m, {contex
 title: '🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁 - 𝗠𝗗 🐧',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://github.com/GataNina-Li/GataBot-MD`}}})
+sourceUrl: `https://www.xnxx.com/video-1bnwrlba/bts_-_happy_valentine_s_day_sussy_sweet_xmas._ltp379`}}})
 } catch (e) {
 await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, m)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
