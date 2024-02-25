@@ -114,9 +114,14 @@ let menu =`
  *┃➤* _${usedPrefix}Kalahari_
  *┃➤* _${usedPrefix}Alpes_
  *┃➤* _${usedPrefix}Agenda_
- *┃➤* _${usedPrefix}Lista4_
- *┃➤* _${usedPrefix}Ficha_
+ *┃➤* _${usedPrefix}Lista3_
+ *┃➤* _${usedPrefix}Formulario_
  *┃➤* _${usedPrefix}Apos_
+  ╰━━━━━━━━━━━━━
+
+   ╭━〔 *🐧 Pingui Spamer 🐧* 〕
+ *┃➤* _${usedPrefix}SpamApk_
+ *┃➤* _${usedPrefix}Comunidades_
   ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Premium 🐧* 〕
