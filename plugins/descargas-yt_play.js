@@ -32,7 +32,7 @@ let captionvid = `𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
 ও ${mid.smsAguarde(additionalText)}
 
-*𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*`  
+🐧 𝗣𝗶𝗻𝗴𝘂𝗶 𝗣𝗹𝗮𝘆 🐧`  
 await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
