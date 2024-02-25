@@ -128,6 +128,10 @@ let menu =`
  *┃➤* _${usedPrefix}TeamFem_
  *┃➤* _${usedPrefix}TeamMasc_
   ╰━━━━━━━━━━━━━
+
+  ╭━〔 *🐧 Pingui Pornero 🐧* 〕
+ *┃➤* _${usedPrefix}MenuPornero_
+  ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Premium 🐧* 〕
  *┃➤* _${usedPrefix}listapremium | listprem_
