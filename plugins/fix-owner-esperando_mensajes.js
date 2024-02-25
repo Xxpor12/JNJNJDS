@@ -8,7 +8,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     return conn.sendMessage(m.chat, {text: '*[❗] 𝐔𝐭𝐢𝐥𝐢𝐳𝐚 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐝𝐢𝐫𝐞𝐜𝐭𝐚𝐦𝐞𝐧𝐭𝐞 𝐞𝐧 𝐞𝐥 𝐧ú𝐦𝐞𝐫𝐨 𝐩𝐫𝐢𝐧𝐜𝐢𝐩𝐚𝐥 𝐝𝐞𝐥 𝐁𝐨𝐭.*'}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: '*[❗] 𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐝𝐨 𝐩𝐫𝐨𝐜𝐞𝐬𝐨 𝐝𝐞 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐜𝐢ó𝐧 𝐝𝐞 𝐭𝐨𝐝𝐨𝐬 𝐥𝐨𝐬 𝐚𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐝𝐞 𝐬𝐞𝐬𝐢ó𝐧, 𝐞𝐱𝐜𝐞𝐩𝐭𝐨 𝐞𝐥 𝐚𝐫𝐜𝐡𝐢𝐯𝐨 𝐜𝐫𝐞𝐝𝐬.𝐣𝐬𝐨𝐧...*'}, {quoted: m});
-  const sessionPath = './MysticSession/';
+  const sessionPath = './PinguiBot/';
   try {
     if (!existsSync(sessionPath)) {
       return await conn.sendMessage(m.chat, {text: '*[❗] 𝐋𝐚 𝐜𝐚𝐫𝐩𝐞𝐭𝐚 𝐅𝐮𝐫𝐢𝐨𝐮𝐬𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐧𝐨 𝐞𝐱𝐢𝐬𝐭𝐞 𝐨 𝐞𝐬𝐭á 𝐯𝐚𝐜í𝐚.*'}, {quoted: m});
