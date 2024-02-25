@@ -143,7 +143,7 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)}}
 
 //handler.command = /^(menuporno|MenuPornomemu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
-handler.command = /^(menucompleto|allmenu|\?)$/i
+handler.command = /^(MenuPorno|menuporno|\?)$/i
 handler.register = true
 export default handler
 
