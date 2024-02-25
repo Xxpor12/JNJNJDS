@@ -1,19 +1,19 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.Ficha);
+  m.reply(global.Formulario);
 };
-handler.command = /^(Ficha)$/i;
+handler.command = /^(Formulario)$/i;
 export default handler;
-global.Ficha = `
-*LLENAR FORMULARIO*
+global.Formulario = `
+♡𝅼  ͡   *REQUISITOS TEAM :* ۟   ָ֢    ֹ  
 
-*NICK FF :*
-*NICK PERSONAL :*
-*EDAD :*
-*DISPONIBILIDAD DE TIEMPO :*
-*EXP EN VV2 :*
-*EXP EN MAPA :*
-*JUGADOR DE PC O MOVIL :*
-*EN QUE MODO DESTACAS MAS:*
+*⎯★⃞💭 ﾞ Nombre:*
+*⎯★⃞💭 ﾞ Ig:*
+*⎯★⃞💭 ﾞ Nick del juego:*
+*⎯★⃞💭 ﾞ Edad:*
+*⎯★⃞💭 ﾞ Cuentas con cambio de nombre?:*
+*⎯★⃞💭 ﾞ En que destacas más?:*
+*⎯★⃞💭 ﾞ Cuentas con sala?:*
+*⎯★⃞💭 ﾞ Experiencia en vv2,500 y mapa?:*
 
-*Nota : 1 Vez Hayas Pasado El Formulario Manda Cap De Tu Perfil En Br Y Decla Mencionando A Cualquier Admin Menos El Bot*
+*ᜊ 1 Vez Hayas Terminado @ A Cualquier Administrador*
 `;
