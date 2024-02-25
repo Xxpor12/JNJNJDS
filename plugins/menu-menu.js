@@ -119,9 +119,14 @@ let menu =`
  *┃➤* _${usedPrefix}Apos_
   ╰━━━━━━━━━━━━━
 
-   ╭━〔 *🐧 Pingui Spamer 🐧* 〕
+  ╭━〔 *🐧 Pingui Spamer 🐧* 〕
  *┃➤* _${usedPrefix}SpamApk_
  *┃➤* _${usedPrefix}Comunidades_
+  ╰━━━━━━━━━━━━━
+
+  ╭━〔 *🐧 Pingui Reclutamientos 🐧* 〕
+ *┃➤* _${usedPrefix}TeamFem_
+ *┃➤* _${usedPrefix}TeamMasc_
   ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Premium 🐧* 〕
