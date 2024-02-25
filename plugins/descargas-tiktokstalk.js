@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async(m, { conn, text, command, usedPrefix }) => {
-if (!text) return conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()}${mid.smsTikTok6}\n*${usedPrefix + command} Gata_Dios*`, m)
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}${mid.smsTikTok6}\n*${usedPrefix + command} Gata_Dios*`
 try {
 let res = await fetch(`https://api.lolhuman.xyz/api/stalktiktok/${text}?apikey=${lolkeysapi}`)
 let res2 = `https://api.lolhuman.xyz/api/pptiktok/${text}?apikey=${lolkeysapi}`
@@ -27,8 +27,7 @@ ${json.result.likes}
 ${json.result.video}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 👀 ${mid.smsinsta4}
-${json.result.bio}
-`.trim()
+${json.result.bio}`.trim()
 await conn.sendFile(m.chat, res2, 'error.jpg', gata, m, false)
 } catch (e) {
 await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, m)
@@ -38,14 +37,5 @@ console.log(e)
 handler.help = ['tiktokstalk'].map(v => v + ' <username>')
 handler.tags = ['stalk']
 handler.command = /^(tiktokstalk|ttstalk)$/i
-handler.exp = 48
+//handler.exp = 48
 export default handler
-
-/*let info = `💖 *Infórmate sobre las Novedades y recuerda tener la última versión.*\n\n💝 *Find out about what's new and remember to have the latest version.*
-  `.trim()
-  
-await conn.sendHydrated(m.chat, info, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
-['𝙈𝙚𝙣𝙪 𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙨 🌀', '#descargasmenu'],
-['𝙈𝙚𝙣𝙪 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪 ✨', '.allmenu'],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
-], m,)  */
