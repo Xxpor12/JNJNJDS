@@ -101,38 +101,35 @@ ciudad = 'Lima'
 }	
 let menu = `
  ╭━〔 *🐧 Pingui Pornero 🐧* 〕
-*┃➤* _${usedPrefix}pack_
-*┃➤* _${usedPrefix}pack2_
-*┃➤* _${usedPrefix}pack3_
-*┃➤* _${usedPrefix}videoxxx_
-*┃➤* _${usedPrefix}videolesbixxx_
-*┃➤* _${usedPrefix}tetas_
-*┃➤* _${usedPrefix}booty_
-*┃➤* _${usedPrefix}ecchi_
-*┃➤* _${usedPrefix}furro_
-*┃➤* _${usedPrefix}imagenlesbians_
-*┃➤* _${usedPrefix}panties_
-*┃➤* _${usedPrefix}pene_
-*┃➤* _${usedPrefix}porno_
-*┃➤* _${usedPrefix}randomxxx_
-*┃➤* _${usedPrefix}pechos_
-*┃➤* _${usedPrefix}yaoi_
-*┃➤* _${usedPrefix}yaoi2_
-*┃➤* _${usedPrefix}yuri_
-*┃➤* _${usedPrefix}yuri2_
-*┃➤* _${usedPrefix}trapito_
-*┃➤* _${usedPrefix}hentai_
+*┃➤* _${usedPrefix}nsfwvid_
+*┃➤* _${usedPrefix}nsfwvid2_
+*┃➤* _${usedPrefix}nsfwvidlesbi_
+*┃➤* _${usedPrefix}nsfwvidgay_
+*┃➤* _${usedPrefix}nsfwvidrandom_
+*┃➤* _${usedPrefix}nsfwvidbisexual_
 *┃➤* _${usedPrefix}nsfwloli_
-*┃➤* _${usedPrefix}nsfworgy_
 *┃➤* _${usedPrefix}nsfwfoot_
 *┃➤* _${usedPrefix}nsfwass_
 *┃➤* _${usedPrefix}nsfwbdsm_
 *┃➤* _${usedPrefix}nsfwcum_
 *┃➤* _${usedPrefix}nsfwero_
-*┃➤* _${usedPrefix}nsfwfemdom_
-*┃➤* _${usedPrefix}nsfwglass_
-*┃➤* _${usedPrefix}hentaipdf *<texto>*_
-*┃➤* _${usedPrefix}hentaisearch *<texto>*_
+*┃➤* _${usedPrefix}nsfwyuri_
+*┃➤* _${usedPrefix}nsfwyaoi2_
+*┃➤* _${usedPrefix}nsfwyaoi_
+*┃➤* _${usedPrefix}nsfwpackgirl_
+*┃➤* _${usedPrefix}nsfwpackmen_
+*┃➤* _${usedPrefix}xnxxdl_
+*┃➤* _${usedPrefix}pussy_
+*┃➤* _${usedPrefix}pornomuslo_
+*┃➤* _${usedPrefix}pornofuck_
+*┃➤* _${usedPrefix}pornorezero_
+*┃➤* _${usedPrefix}pornocosplay_
+*┃➤* _${usedPrefix}pornomamada2_
+*┃➤* _${usedPrefix}kanna_
+*┃➤* _${usedPrefix}nsfwass3_
+*┃➤* _${usedPrefix}anal_
+*┃➤* _${usedPrefix}pornokitagawa_
+*┃➤* _${usedPrefix}pornotatsumaki_
  ╰━━━━━━━━━━━━━`.trim()
 await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
 //conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
