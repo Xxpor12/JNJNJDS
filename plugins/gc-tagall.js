@@ -10,9 +10,9 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   }
   const pesan = args.join` `;
   const oi = `${pesan}`;
-  let teks = `╭┄〔 🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 🐧 〕┄⊱\n┆\n┆ 𝗨𝘀𝘂𝗮𝗿𝗶𝗼𝘀 𝗗𝗲𝗹 𝗚𝗿𝘂𝗽𝗼 : ${participants.length} ${oi}\n┆\n┆ 𝘼𝙘𝙩𝙞𝙫𝙚𝙣𝙨𝙚 𝙥𝙡𝙖𝙣𝙩𝙖𝙨 ღ\n`;
+  let teks = `╭┄〔 🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁 - 𝗠𝗗 🐧 〕┄⊱\n┆\n┆ 𝗨𝘀𝘂𝗮𝗿𝗶𝗼𝘀 𝗗𝗲𝗹 𝗚𝗿𝘂𝗽𝗼 : ${participants.length} ${oi}\n┆\n┆ 𝗚𝗼𝗴𝗼 𝗣𝗶𝗻𝗴𝘂𝗶 𝗗𝗶𝗰𝗲 𝗤𝘂𝗲 𝗧𝗲 𝗔𝗰𝘁𝗶𝘃𝗲𝘀 𝗢 𝗖𝘂𝗽𝗼 𝗣𝗹𝗮𝗻𝘁𝗶𝘁𝗮 ღ\n`;
   for (const mem of participants) {
-    teks += `┆ღ @${mem.id.split('@')[0]}\n`;
+    teks += `┆🐧 @${mem.id.split('@')[0]}\n`;
   }
   teks += `└🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 🐧\n\n`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
