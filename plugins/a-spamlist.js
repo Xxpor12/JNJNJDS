@@ -1,4 +1,9 @@
-
+const handler = async (m, {conn}) => {
+  m.reply(global.Comunidades);
+};
+handler.command = /^(Comunidades)$/i;
+export default handler;
+global.Comunidades = `
 
 COMUNIDADES DE SPAM  🎗
 ━━━━━━━━🎗━━━━━━━━━
@@ -178,3 +183,6 @@ https://chat.whatsapp.com/HudKXsnU2iB7ic3sH7nb4G
 • https://chat.whatsapp.com/E0ldMcPFmRJ4awFd7fx8ww
 
 • https://chat.whatsapp.com/EJp57IxLO1UEATcNGAUKCx 
+
+`;
+
