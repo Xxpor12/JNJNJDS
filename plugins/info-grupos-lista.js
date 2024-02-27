@@ -14,7 +14,7 @@ const isBotAdmin = bot?.admin || false;
 const isParticipant = participants.some((u) => conn.decodeJid(u.id) === conn.user.jid);
 const participantStatus = isParticipant ? '✅ *SIGO AQUÍ | YES*' : '❌ *SIN ESTAR AQUÍ | NO*';
 const totalParticipants = participants.length;
-txt += `🐈 *${i + 1}*
+txt += `🐧 *${i + 1}*
 ${lenguajeGB.smsLisC()} ${await conn.getName(jid)} ${participantStatus}
 ${lenguajeGB.smsLisD()} ${jid}
 ${lenguajeGB.smsLisF()} ${isBotAdmin ? '✅' : '❌'}
@@ -35,7 +35,7 @@ const isBotAdmin = bot?.admin || false;
 const isParticipant = participants.some((u) => conn.decodeJid(u.id) === conn.user.jid);
 const participantStatus = isParticipant ? '✅ *SIGO AQUÍ | YES*' : '❌ *SIN ESTAR AQUÍ | NO*';
 const totalParticipants = participants.length;    
-    txt += `🐈 ${i + 1}
+    txt += `🐧 ${i + 1}
 ${lenguajeGB.smsLisC()} ${await conn.getName(jid)} ${participantStatus}
 ${lenguajeGB.smsLisD()} ${jid}
 ${lenguajeGB.smsLisF()} ${isBotAdmin ? '✅' : '❌'}
@@ -48,6 +48,4 @@ ${lenguajeGB.smsLisB()} ${totalGroups}\n\n${txt}`.trim());
 handler.help = ['groups', 'grouplist']
 handler.tags = ['info']
 handler.command = /^(groups|grouplist|listadegrupo|gruposlista|listagrupos|listadegrupos|grupolista|listagrupo)$/i
-handler.exp = 5
-handler.register = true
 export default handler
