@@ -1,12 +1,7 @@
-const handler = async (m, {conn, isROwner, text}) => {
-  const delay = (time) => new Promise((res) => setTimeout(res, time));
-  const getGroups = await conn.groupFetchAllParticipating();
-  const groups = Object.entries(getGroups).slice(0).map((entry) => entry[1]);
-  const anu = groups.map((v) => v.id);
 const handler = async (m, {conn}) => {
   m.reply(global.instalarbot);
 };
-handler.command = /^(instalarbot|instalarbot|instalarbot)$/i;
+handler.command = /^(instalarbot)$/i;
 export default handler;
 
 global.instalarbot = `
