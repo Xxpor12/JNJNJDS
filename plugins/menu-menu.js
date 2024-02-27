@@ -118,6 +118,7 @@ let menu =`
  *┃➤* _${usedPrefix}Formulario_
  *┃➤* _${usedPrefix}Apos_
  *┃➤* _${usedPrefix}Vv2_
+ *┃➤* _${usedPrefix}mapa_
   ╰━━━━━━━━━━━━━
 
   ╭━〔 *🐧 Pingui Spamer 🐧* 〕
@@ -128,6 +129,16 @@ let menu =`
   ╭━〔 *🐧 Pingui Reclutamientos 🐧* 〕
  *┃➤* _${usedPrefix}TeamFem_
  *┃➤* _${usedPrefix}TeamMasc_
+  ╰━━━━━━━━━━━━━
+
+   ╭━〔 *🐧 Pingui Edits 🐧* 〕
+ *┃➤* _${usedPrefix}ApkEdit_
+ *┃➤* _${usedPrefix}DriveEdits_
+  ╰━━━━━━━━━━━━━
+
+   ╭━〔 *🐧 Pingui Tarjetas 🐧* 〕
+ *┃➤* _${usedPrefix}Cc2_
+ *┃➤* _${usedPrefix}Tarjetas_
   ╰━━━━━━━━━━━━━
 
   ╭━〔 *🐧 Pingui Pornero 🐧* 〕
