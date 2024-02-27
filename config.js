@@ -13,7 +13,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["51936994155", '𝗣𝗶𝗻𝗴𝘂𝗶 🐧', true], //𝗣𝗶𝗻𝗴𝘂𝗶 𝗕𝗼𝘁 🐧
+["51981983121", '𝗣𝗶𝗻𝗴𝘂𝗶 🐧', true], //𝗣𝗶𝗻𝗴𝘂𝗶 𝗕𝗼𝘁 🐧
 ["573112811966"]]
 
 global.mods = []
@@ -111,7 +111,7 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["51936994155", '𝗣𝗶𝗻𝗴𝘂𝗶 🐧', 1]]
+["51981983121", '𝗣𝗶𝗻𝗴𝘂𝗶 🐧', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -137,9 +137,9 @@ global.md = "https://www.instagram.com/cristoferrojasph"
 global.fb = "https://www.instagram.com/cristoferrojasph"
 global.tk = "https://www.instagram.com/cristoferrojasph"
 global.ths = "https://www.instagram.com/cristoferrojasph"
-global.paypal = 'https://walink.co/85ad42'
-global.asistencia = 'https://walink.co/85ad42' //Contacto
-global.bot = 'https://walink.co/85ad42' //🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 🐧 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 
+global.paypal = 'https://wa.link/tpa35w'
+global.asistencia = 'https://wa.link/tpa35w' //Contacto
+global.bot = 'https://wa.link/tpa35w' //🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 🐧 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 
 
 global.nna = 'https://www.instagram.com/cristoferrojasph' // Cuentas
 global.nn2 = 'https://www.instagram.com/cristoferrojasph' // Grupo tg GataBot
