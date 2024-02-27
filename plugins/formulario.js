@@ -7,7 +7,7 @@ global.Formulario = `
 ♡𝅼  ͡   *REQUISITOS TEAM :* ۟   ָ֢    ֹ  
 
 *⎯★⃞🐧 ﾞ Nombre :*
-*⎯★⃞🐧 ﾞ  Insta :*
+*⎯★⃞🐧 ﾞ Insta :*
 *⎯★⃞🐧 ﾞ Nick del juego :*
 *⎯★⃞🐧 ﾞ Edad :*
 *⎯★⃞🐧 ﾞ Cuentas con cambio de nombre? :*
