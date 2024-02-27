@@ -100,6 +100,7 @@ let menu =`
  *┃➤* _${usedPrefix}instalarbot_
  *┃➤* _${usedPrefix}creador_
  *┃➤* _${usedPrefix}velocidad_
+ *┃➤* _${usedPrefix}preciobot_
   ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Free Fire 🐧* 〕
