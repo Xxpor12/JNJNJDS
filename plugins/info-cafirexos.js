@@ -1,10 +1,10 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let cafirexos = `
-_Optimice la implementación de *Long Time Bot* mediante la integración en un servicio de alojamiento de alto rendimiento._
+_Optimice la implementación de *PinguiBot-Md* mediante la integración en un servicio de alojamiento de alto rendimiento._
 
-*Compatible con Long Time Bot*
-Aprovecha la compatibilidad y comienza usar Long Time Bot en servidores de alto rendimiento. El Staff de Long Time Bot y Cafirexos hacen posible que puedas ejecutar las funciones que tanto te gusta usar sintiendo una experiencia fluida y de calidad.
+*Compatible con PinguiBot-Md*
+Aprovecha la compatibilidad y comienza usar Long Time Bot en servidores de alto rendimiento. El Staff de PinguiBot-Md y Cafirexos hacen posible que puedas ejecutar las funciones que tanto te gusta usar sintiendo una experiencia fluida y de calidad.
 
 🔵 \`\`\`Información del Host\`\`\`
 
@@ -26,7 +26,7 @@ https://chat.whatsapp.com/FBtyc8Q5w2iJXVl5zGJdFJ
 📧 *Correo*
 contacto@cafirexos.com
 
-🧑‍💻 *Contacto (Long Time) Si Deseas Comprar Server 24/7*
+🧑‍💻 *Contacto (Cristhofer) Si Deseas Comprar Server 24/7*
 https://wa.me/51936994155
 `
 await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
@@ -36,7 +36,7 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁`,
+title: `PinguiBot-Md`,
 body: `✅ Hosting de Calidad`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
