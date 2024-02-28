@@ -102,6 +102,7 @@ let menu =`
  *┃➤* _${usedPrefix}creador_
  *┃➤* _${usedPrefix}velocidad_
  *┃➤* _${usedPrefix}preciobot_
+ *┃➤* _${usedPrefix}proveedor_
   ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Free Fire 🐧* 〕
