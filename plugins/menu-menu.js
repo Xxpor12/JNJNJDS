@@ -88,6 +88,7 @@ let menu =`
 *┃➤ Creador : Pingui 🐧*
 *┃➤ Instagram : ${md} 😻*
 *┃➤ Activo : ${uptime} 😹*
+*┃➤ Usuarios :  ${rtotalreg}/${totalreg} 🌹*
  ╰━━━━━━━━━━━━━
 
   ╭━〔 *🐧 Pingui Info 🐧* 〕
