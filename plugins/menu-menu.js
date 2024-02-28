@@ -418,13 +418,14 @@ let menu =`
  *┃➤* _${usedPrefix}smooth_
  *┃➤* _${usedPrefix}tupai_
   ╰━━━━━━━━━━━━━
-  
+  	
   ╭━〔 *🐧 Pingui Busqueda 🐧* 〕
  *┃➤* _${usedPrefix}animeinfo *texto*_
  *┃➤* _${usedPrefix}anuel_
  *┃➤* _${usedPrefix}conejo_
  *┃➤* _${usedPrefix}drago_
  *┃➤* _${usedPrefix}feid_
+ *┃➤* _${usedPrefix}narcisistas_
  *┃➤* _${usedPrefix}mangainfo *texto*_
  *┃➤* _${usedPrefix}google *texto*_
  *┃➤* _${usedPrefix}googlelyrics *texto*_
@@ -550,7 +551,7 @@ let menu =`
  *┃➤* _${usedPrefix}delpinguicoins *@tag*_
  *┃➤* _${usedPrefix}deldiamantes *@tag*_
  *┃➤* _${usedPrefix}reiniciar | restart_
- *┃➤* _${usedPrefix}ctualizar | update_
+ *┃➤* _${usedPrefix}actualizar | update_
  *┃➤* _${usedPrefix}addprem | +prem *@tag*_
  *┃➤* _${usedPrefix}delprem | -prem *@tag*_
  *┃➤* _${usedPrefix}listapremium | listprem_
