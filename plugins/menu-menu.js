@@ -143,9 +143,6 @@ let menu =`
  *┃➤* _${usedPrefix}Tarjetas_
   ╰━━━━━━━━━━━━━
 
-  ╭━〔 *🐧 Pingui Pornero 🐧* 〕
- *┃➤* _${usedPrefix}MenuPornero_
-  ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Premium 🐧* 〕
  *┃➤* _${usedPrefix}listapremium | listprem_
@@ -199,9 +196,8 @@ let menu =`
   ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Ia 🐧* 〕
- *┃➤* _${usedPrefix}simi | okgoogle *texto*_
- *┃➤* _${usedPrefix}alexa | siri | cortana *texto*_
- *┃➤* _${usedPrefix}simsimi | bixby *texto*_
+ *┃➤* _${usedPrefix}geminiimg *reaccione a una foto*_
+ *┃➤* _${usedPrefix}gemini *texto*_
   ╰━━━━━━━━━━━━━
 
   ╭━〔 *🐧 Pingui Ajustes Grupos 🐧* 〕
