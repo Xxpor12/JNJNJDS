@@ -177,6 +177,7 @@ let menu =`
  *┃➤* _${usedPrefix}gay | gay *@tag*_
  *┃➤* _${usedPrefix}gay2 *nombre : @tag*_
  *┃➤* _${usedPrefix}lesbiana *nombre : @tag*_
+ *┃➤* _${usedPrefix}lesbi1 *nombre : @tag*_
  *┃➤* _${usedPrefix}manca *nombre : @tag*_
  *┃➤* _${usedPrefix}manco *nombre : @tag*_
  *┃➤* _${usedPrefix}pajero *nombre : @tag*_
