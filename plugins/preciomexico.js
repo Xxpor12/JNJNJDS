@@ -1,7 +1,7 @@
 const handler = async (m, {conn}) => {
   m.reply(global.mexico);
 };
-handler.command = /^(mexico|mexico)$/i;
+handler.command = /^(mexico|México)$/i;
 export default handler;
 
 global.mexico = `
