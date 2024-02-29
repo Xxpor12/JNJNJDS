@@ -126,7 +126,8 @@ let menu =`
  *┃➤* _${usedPrefix}Formulario_
  *┃➤* _${usedPrefix}Apos_
  *┃➤* _${usedPrefix}Vv2_
- *┃➤* _${usedPrefix}mapa_
+ *┃➤* _${usedPrefix}Mapa_
+ *┃➤* _${usedPrefix}InfinitoFem_
   ╰━━━━━━━━━━━━━
 
   ╭━〔 *🐧 Pingui Spamer 🐧* 〕
