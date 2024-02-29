@@ -91,6 +91,12 @@ let menu =`
 *┃➤ Usuarios :  ${rtotalreg}/${totalreg} 🌹*
  ╰━━━━━━━━━━━━━
 
+  ╭━〔 *🐧 Pingui Adquirir 🐧* 〕
+ *┃➤* _${usedPrefix}Vendedores / Vendedores ofc_
+ *┃➤* _${usedPrefix}Preciobot / Comprar El Bot_
+ *┃➤* _${usedPrefix}Proveedor / Deseas Vender Pingui ?_
+  ╰━━━━━━━━━━━━━
+  
   ╭━〔 *🐧 Pingui Info 🐧* 〕
  *┃➤* _${usedPrefix}cafirexos_
  *┃➤* _${usedPrefix}gruposgb_
@@ -101,8 +107,6 @@ let menu =`
  *┃➤* _${usedPrefix}instalarbot_
  *┃➤* _${usedPrefix}creador_
  *┃➤* _${usedPrefix}velocidad_
- *┃➤* _${usedPrefix}preciobot_
- *┃➤* _${usedPrefix}proveedor_
   ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Free Fire 🐧* 〕
