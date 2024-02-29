@@ -19,5 +19,5 @@ let handler = async (m, { conn, text, usedPrefix }) => {
 }
 handler.help = ['getpp @user']
 handler.tags = ['group']
-handler.command = /^lesbiana1$/i
+handler.command = /^newlg$/i
 export default handler
