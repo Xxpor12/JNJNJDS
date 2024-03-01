@@ -157,7 +157,7 @@ global.nnnttt5 = 'https://www.instagram.com/cristoferrojasph' // MULTI - BOTS
 global.nnnttt6 = 'https://www.instagram.com/cristoferrojasph' // A.T.M.M
 global.channel1 = 'https://www.instagram.com/cristoferrojasph'
 global.channel2 = 'https://www.instagram.com/cristoferrojasph'
-global.channel3 = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS'
+global.channel3 = 'https://chat.whatsapp.com/IKeeFD8PDaS7rkyG7a12g1'
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.rg = ''
