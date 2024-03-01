@@ -20,7 +20,7 @@ let text
    const obj = {
       "type": "quote",
       "format": "png",
-      "backgroundColor": "#000000",
+      "backgroundColor": "#DFD3CF",
       "width": 512,
       "height": 768,
       "scale": 2,
