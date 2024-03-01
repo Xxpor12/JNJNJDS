@@ -1,20 +1,24 @@
-import fs from 'fs'
-import yaoiImages from 'module-gatadios'
+const handler = async (m, {conn}) => {
+  m.reply(global.publicidad);
+};
+handler.command = /^(publicidadbot)$/i;
+export default handler;
 
-let handler = async (m, { conn }) => {
-const resultJson = yaoiImages.getRandomImage()
+global.publicidad = `
+𝗣𝗶𝗻𝗴𝘂𝗶 𝗩𝗲𝗻𝘁𝗮𝘀 𝗬 𝗦𝗼𝗿𝘁𝗲𝗼𝘀 🐧🛍️ 
 
-let txt
-txt = `
-Nombre: ${resultJson.name}
+🐧 𝗕𝗼𝘁𝘀 𝗣𝗲𝗿𝘇𝗼𝗻𝗮𝗹𝗶𝘇𝗮𝗱𝗼𝘀 / 𝗚𝗿𝘂𝗽𝗼
+🐧 𝗔𝗽𝗸 𝗦𝗽𝗮𝗺 / 𝗦𝗲𝗴𝘂𝗶𝗱𝗼𝗿𝗲𝘀
+🐧 𝗦𝗲𝗴𝘂𝗶𝗱𝗼𝗿𝗲𝘀 𝗣𝗮𝗿𝗮 𝗧𝘂 𝗜𝗴
+🐧 𝗖𝘂𝗲𝗻𝘁𝗮𝘀 𝗗𝗲 𝗦𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴
+🐧 𝗡𝘂𝗺𝗲𝗿𝗼𝘀 +𝟱𝟰 𝗬 +𝟱𝟲
+🐧 𝗦𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗗𝗲 𝗦𝗽𝗮𝗺
 
-Autor: ${resultJson.author}
+𝗚𝗿𝘂𝗽𝗼𝘀 𝗗𝗲 𝗦𝗼𝗿𝘁𝗲𝗼𝘀 𝗬 𝗩𝗲𝗻𝘁𝗮𝘀 𝗣𝗼𝗱𝗿𝗮𝘀 𝗚𝗮𝗻𝗮𝗿 𝗣𝗹𝗮𝗻𝘁𝗶𝗹𝗹𝗮𝘀 , 𝗕𝗼𝘁𝘀 , 𝗦𝗲𝗴𝘂𝗶𝗱𝗼𝗿𝗲𝘀 , 𝗔𝗽𝗸𝘀 𝗗𝗲 𝗦𝗽𝗮𝗺 𝘆 𝗔𝗽𝗸 𝗗𝗲 𝗦𝗲𝗴𝘂𝗶𝗱𝗼𝗿𝗲𝘀 ♡
 
-Descripción: ${resultJson.description}`
-  
-conn.sendMessage(m.chat, {image: {url: resultJson.link}, caption: txt.trim()}, {quoted: m})
-  
-}
+𝗗𝗲𝘀𝗲𝗮𝘀 𝗦𝗲𝗿 𝗣𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿 𝗗𝗲 𝗣𝗶𝗻𝗴𝘂𝗶 🐧?
 
-handler.command = /^(prueba36)$/i
-export default handler
+𝗖𝗼𝗻𝘁𝗮𝗰𝘁 : +51 981 983 121
+
+𝗟𝗶𝗻𝗸 𝗩𝗲𝗻𝘁𝗮𝘀 𝗬 𝗦𝗼𝗿𝘁𝗲𝗼𝘀 : https://chat.whatsapp.com/J108jej6L2CKdIo2qpBvh9
+`;
