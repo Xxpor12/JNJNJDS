@@ -7,9 +7,9 @@ let handler = async (m, {conn, command}) => {
      ` 
 𝗩𝗶𝗱𝗲𝗼𝘀 𝗗𝗲 𝗖𝗵𝗶𝗰𝗮𝘀 𝗛𝗼𝘁`.trim(), m)
 };
-handler.help = ["PackChicas1"];
+handler.help = ["VideosXXX"];
 handler.tags = ["internet"];
-handler.command = /^(PackChicas1)$/i;
+handler.command = /^(VideosXXX)$/i;
 export default handler;
 
 global.pack = [
