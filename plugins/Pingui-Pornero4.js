@@ -1,34 +1,12 @@
-let handler = async (m, {conn, command}) => {
-  let url = pack[Math.floor(Math.random() * pack.length)];
-    await conn.sendFile( 
-     m.chat, 
-     url, 
-     "gimage.jpg", 
-     ` 
-𝗛𝗼𝘁`.trim(), m)
-};
-handler.help = ["Pene"];
-handler.tags = ["internet"];
-handler.command = /^(Pene)$/i;
-export default handler;
-
-global.pack = [
-"https://www.tubemedia.info/fotos-caseras/2019/AGGHXT399972/2.jpg",
-"https://www.tubemedia.info/fotos-caseras/2020/QDYLUG004501/1.jpg",  
-"https://www.tubemedia.info/fotos-caseras/2020/LPDAWF004825/2.jpg",
-"https://www.temagay.org.es/wp-content/uploads/2020/07/penegrandote.jpg",
-"https://www.temagay.org.es/wp-content/uploads/2020/09/rabazo.jpg",
-"https://www.temagay.org.es/wp-content/uploads/2013/12/tumblr_nb3ub4uldt1rlk3lwo1_540.jpg",
-"https://www.temagay.org.es/wp-content/uploads/2021/01/cipote.jpg",
-"https://www.temagay.org.es/wp-content/uploads/2017/02/tumblr_oie36xuW4l1tykddro1_1280-668x1188.jpg",
-"https://cdn77-pic.xnxx-cdn.com/videos/thumbs169xnxxposter/66/f0/60/66f060db116cf153afb62a114381144b/66f060db116cf153afb62a114381144b.28.jpg",
-"https://img-cf.xnxx-cdn.com/videos/thumbs169xnxxposter/e9/13/07/e913073a75e5fc58dd0783ce421a1b45-1/e913073a75e5fc58dd0783ce421a1b45.23.jpg",
-"https://img-hw.xvideos-cdn.com/videos/thumbs169ll/cd/0a/72/cd0a72283d1f4d6038f0dcaafa689d8e/cd0a72283d1f4d6038f0dcaafa689d8e.6.jpg",
-"https://cdn77-pic.xvideos-cdn.com/videos/thumbs169poster/9b/e7/40/9be74068fc8c7ae266bdb2265e01d456/9be74068fc8c7ae266bdb2265e01d456.15.jpg",
-"https://cdn77-pic.xvideos-cdn.com/videos/thumbs169poster/93/d4/c7/93d4c7c5a8d76d1cdbfc84f2530a563a/93d4c7c5a8d76d1cdbfc84f2530a563a.25.jpg",
-"https://img-hw.xnxx-cdn.com/videos/thumbslll/cd/0a/72/cd0a72283d1f4d6038f0dcaafa689d8e/cd0a72283d1f4d6038f0dcaafa689d8e.27.jpg",
-"https://www.temagay.org.es/wp-content/uploads/2020/01/zipotes.jpg",
-"https://pbs.twimg.com/media/Eyb1bfrWYAY2CgW.jpg",º
-];
-
-handler.limit = 18;
+import axios from "axios"
+let handler = async (m, {command, conn, usedPrefix}) => {
+let res = (await axios.get(`https://raw.githubusercontent.com/OFC-YOVANI/HADES-BOT-MD/master/src/hades/+18-${command}.json`)).data  
+let haha = await res[Math.floor(res.length * Math.random())]    
+conn.sendFile(m.chat, haha, 'error.jpg', `_${command}_`, m)
+//conn.sendButton(m.chat, `_${command}_`.trim(), author, haha, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `${usedPrefix + command}`]], m)    
+}
+handler.help = ['nsfwloli', 'nsfwfoot', 'nsfwass', 'nsfwbdsm', 'nsfwcum', 'nsfwero', 'nsfwfemdom', 'nsfwfoot', 'nsfwglss', 'nsfworgy', 'yuri', 'yuri2', 'yaoi', 'yaoi2', 'panties', 'tetas', 'booty', 'ecchi', 'furro', 'hentai', 'trapito', 'imagenlesbians', 'pene', 'porno', 'randomxxx', 'pechos']
+handler.command = ['nsfwloli', 'nsfwfoot', 'nsfwass', 'nsfwbdsm', 'nsfwcum', 'nsfwero', 'nsfwfemdom', 'nsfwfoot', 'nsfwglss', 'nsfworgy', 'yuri', 'yuri2', 'yaoi', 'yaoi2', 'panties', 'tetas', 'booty', 'ecchi', 'furro', 'hentai', 'trapito', 'imagenlesbians', 'pene', 'porno', 'randomxxx', 'pechos']
+handler.tags = ['anime']
+handler.limit = 4
+export default handler
