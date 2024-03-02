@@ -13,7 +13,6 @@ handler.command = /^(PackGir)$/i;
 export default handler;
 
 global.pack = [
-  "https://telegra.ph/file/4a270d9945ac46f42d95c.mp4",
   "https://telegra.ph/file/c0da7289bee2d97048feb.jpg",
   "https://telegra.ph/file/b8564166f9cac4d843db3.jpg",
   "https://telegra.ph/file/fdefd621a17712be15e0e.jpg",
@@ -63,7 +62,7 @@ global.pack = [
   "https://telegra.ph/file/049a8c611a838ea2f6daa.jpg",
   "https://telegra.ph/file/37b35fbc7e2ee73482ee1.jpg",
   "https://telegra.ph/file/9bcfade24ae85cd417f06.jpg",
-  ",https://telegra.ph/file/ac0c711585f4300c54355.jpg",
+  "https://telegra.ph/file/ac0c711585f4300c54355.jpg",
 ];
 
 handler.limit = 50;
