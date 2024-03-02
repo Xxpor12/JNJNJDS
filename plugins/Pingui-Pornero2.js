@@ -33,7 +33,7 @@ global.pack = [
 "https://telegra.ph/file/f071c9a4cef0fac79c614.jpg",
 "https://telegra.ph/file/85d4dc6ba0e3d922c79c3.jpg",
 "https://telegra.ph/file/81f0b276b91501e14c53e.jpg",
-"https://telegra.ph/file/1a4be9852051e5e818903.jpg"
+"https://telegra.ph/file/1a4be9852051e5e818903.jpg",
 ];
 
 handler.limit = 22;
