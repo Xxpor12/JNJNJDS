@@ -5,11 +5,11 @@ let handler = async (m, {conn, command}) => {
      url, 
      "gimage.jpg", 
      ` 
-𝗣𝗮𝗰𝗸 𝗖𝗵𝗶𝗰𝗮`.trim(), m)
+𝗩𝗶𝗱𝗲𝗼𝘀 𝗗𝗲 𝗖𝗵𝗶𝗰𝗮𝘀 𝗛𝗼𝘁`.trim(), m)
 };
-handler.help = ["PackChica"];
+handler.help = ["VideoChicas"];
 handler.tags = ["internet"];
-handler.command = /^(PackChica)$/i;
+handler.command = /^(VideoChicas)$/i;
 export default handler;
 
 global.pack = [
