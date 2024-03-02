@@ -21,13 +21,13 @@ https://panel.cafirexos.com
 https://whatsapp.com/channel/0029VaFVSkRCMY0KFmCMDX2q
 
 💥 *Grupo de WhatsApp*
-https://chat.whatsapp.com/FBtyc8Q5w2iJXVl5zGJdFJ
+https://chat.whatsapp.com/IKeeFD8PDaS7rkyG7a12g1
 
 📧 *Correo*
 contacto@cafirexos.com
 
 🧑‍💻 *Contacto (Cristhofer) Si Deseas Comprar Server 24/7*
-https://wa.me/51936994155
+https://wa.me/1981983121
 `
 await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
 contextInfo: {
