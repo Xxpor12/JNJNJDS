@@ -7,9 +7,9 @@ let handler = async (m, {conn, command}) => {
      ` 
 𝗖𝗵𝗶𝗰𝗮𝘀 𝗛𝗼𝘁`.trim(), m)
 };
-handler.help = ["PackGirl"];
+handler.help = ["PackMixto"];
 handler.tags = ["internet"];
-handler.command = /^(PackGir)$/i;
+handler.command = /^(PackMixto)$/i;
 export default handler;
 
 global.pack = [
@@ -50,13 +50,13 @@ global.pack = [
   "https://telegra.ph/file/f9745dcd22f67cbc62e08.jpg",
   "https://telegra.ph/file/02219f503317b0596e101.jpg",
   "https://telegra.ph/file/470c8ec30400a73d03207.jpg",
- "https://telegra.ph/file/c94fa8ed20f2c0cf16786.jpg",
+  "https://telegra.ph/file/c94fa8ed20f2c0cf16786.jpg",
   "https://telegra.ph/file/1b02a1ca6a39e741faec7.jpg",
   "https://telegra.ph/file/eea58bf7043fd697cdb43.jpg",
   "https://telegra.ph/file/ee3db7facdfe73c8df05a.jpg",
   "https://telegra.ph/file/d45b4e4af4f2139507f8c.jpg",
   "https://telegra.ph/file/d176e7fc8720f98f6b182.jpg",
-"https://telegra.ph/file/ce1e072829d1fa5d99f5f.jpg",
+  "https://telegra.ph/file/ce1e072829d1fa5d99f5f.jpg",
   "https://telegra.ph/file/a947933701be6d579c958.jpg",
   "https://telegra.ph/file/9027e5a464ec88e8ab5c1.jpg",
   "https://telegra.ph/file/049a8c611a838ea2f6daa.jpg",
