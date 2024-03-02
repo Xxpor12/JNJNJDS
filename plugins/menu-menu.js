@@ -151,6 +151,10 @@ let menu =`
  *┃➤* _${usedPrefix}Tarjetas_
   ╰━━━━━━━━━━━━━
 
+   ╭━〔 *🐧 Pingui Pornero 🐧* 〕
+ *┃➤* _${usedPrefix}PinguiPajero_
+ *┃➤* _${usedPrefix}PinguiPornero_
+  ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Premium 🐧* 〕
  *┃➤* _${usedPrefix}listapremium | listprem_
