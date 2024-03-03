@@ -112,23 +112,30 @@ let menu =`
   ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Free Fire 🐧* 〕
- *┃➤* _${usedPrefix}VsMixto_
- *┃➤* _${usedPrefix}VsFem_
- *┃➤* _${usedPrefix}VsMasc_
- *┃➤* _${usedPrefix}BsMixto_
- *┃➤* _${usedPrefix}BsFem_
- *┃➤* _${usedPrefix}BsMasc_
- *┃➤* _${usedPrefix}Bermuda_
- *┃➤* _${usedPrefix}Nexterra_
- *┃➤* _${usedPrefix}Kalahari_
- *┃➤* _${usedPrefix}Alpes_
- *┃➤* _${usedPrefix}Agenda_
- *┃➤* _${usedPrefix}Lista3_
- *┃➤* _${usedPrefix}Formulario_
- *┃➤* _${usedPrefix}Apos_
- *┃➤* _${usedPrefix}Vv2_
- *┃➤* _${usedPrefix}Mapa_
- *┃➤* _${usedPrefix}InfinitoFem_
+ *┃➤* _${usedPrefix}Masc18 / Lista Masc 18_
+ *┃➤* _${usedPrefix}Masc20 / Lista Masc 20_
+ *┃➤* _${usedPrefix}Masc22 / Lista Masc 22_
+ *┃➤* _${usedPrefix}Masc00 / Lista Masc 00_
+ *┃➤* _${usedPrefix}Fem18 / Lista Fem 18_
+ *┃➤* _${usedPrefix}Fem20 / Lista Fem 20_
+ *┃➤* _${usedPrefix}Fem22 / Lista Fem 22_
+ *┃➤* _${usedPrefix}Fem00 / Lista Fem 00_
+ *┃➤* _${usedPrefix}Mixto18 / Lista Mixto 18_
+ *┃➤* _${usedPrefix}Mixto20 / Lista Mixto 20_
+ *┃➤* _${usedPrefix}Mixto22 / Lista Mixto 22_
+ *┃➤* _${usedPrefix}Mixto00 / Lista Mixto 00_
+ *┃➤* _${usedPrefix}BsFem / Buscar Vs Fem_
+ *┃➤* _${usedPrefix}BsMasc / Buscar Vs Masc_
+ *┃➤* _${usedPrefix}BsMixto / Buscar Vs Mixto_
+ *┃➤* _${usedPrefix}Bermuda / Mapa Free Fire 2024_
+ *┃➤* _${usedPrefix}Nexterra / Mapa Free Fire 2024_
+ *┃➤* _${usedPrefix}Kalahari / Mapa Free Fire 2024_
+ *┃➤* _${usedPrefix}Agenda / Agenda Oficial De Free Fire_
+ *┃➤* _${usedPrefix}Formulario / Ficha Para Entrar Al Team_
+ *┃➤* _${usedPrefix}Apos / Reglas Apos Sur_
+ *┃➤* _${usedPrefix}Vv2 / Reglas Vv2 Sur_
+ *┃➤* _${usedPrefix}Mapa / Reglas Mapa Sur_
+ *┃➤* _${usedPrefix}InfinitoFem / Reglas Infinito Femenina Sur_
   ╰━━━━━━━━━━━━━
 
   ╭━〔 *🐧 Pingui Spamer 🐧* 〕
