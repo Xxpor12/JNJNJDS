@@ -1,13 +1,13 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.Masc16);
+  m.reply(global.Masc18);
 };
-handler.command = /^(Masc16|Masc16)$/i;
+handler.command = /^(Masc18|Masc18)$/i;
 export default handler;
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
 
-global.Masc16 = `
+global.Masc18 = `
 ╭┈┈ ๑🐧๑ •• 𝗠𝗔𝗦𝗖𝗨𝗟𝗜𝗡𝗢 •• ๑🐧๑
 │
 │    𝗦𝗮𝗹𝗮 𝗦𝗼𝗿𝘁𝗲𝗮𝗱𝗮 𝗘𝗻𝘁𝗿𝗲 𝗟𝗼𝘀 𝟰 𝗧𝗶𝘁𝘂𝗹𝗮𝗿𝗲𝘀
