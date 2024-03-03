@@ -373,6 +373,17 @@ let menu =`
  *┃➤* _${usedPrefix}blur_
   ╰━━━━━━━━━━━━━
 
+  ╭━〔 *🐧 Pingui Fantasy 🐧* 〕
+ *┃➤* _${usedPrefix}fantasy | fy_
+ *┃➤* _${usedPrefix}fyguia | fyguide_
+ *┃➤* _${usedPrefix}fantasyinfo | fyinfo_
+ *┃➤* _${usedPrefix}fyagregar | fyadd_
+ *┃➤* _${usedPrefix}fycambiar | fychange_
+ *┃➤* _${usedPrefix}fylista | fyl_
+ *┃➤* _${usedPrefix}fantasymy | fymy_
+ *┃➤* _${usedPrefix}fyentregar | fytransfer_
+  ╰━━━━━━━━━━━━━
+  
   ╭━〔 *🐧 Pingui Anime 🐧* 〕
  *┃➤* _${usedPrefix}chica_
  *┃➤* _${usedPrefix}chico_
