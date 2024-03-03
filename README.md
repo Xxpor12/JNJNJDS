@@ -1,22 +1,20 @@
-# `𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏` 
+# `🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 🐧` 
 
 ------------------
-> **AVISO**: Yo "Bruno Sobrino", me he retirado de todo lo relacionado con el bot o temas similares, por lo que en algún momento quedará obsoleto y/o algunos comandos dejarán de funcionar. Agradezco su preferencia durante el recorrido por este mundo de los bots.
-
-> TheMystic-Bot-MD pasa a quedar en manos de colaboradores, y como principal representante Aiden_NotLogic.
+> **ATENCION**: Este Bot Ha Sido Creado Con El Fin De Facilitar La Vida Humana.
 ------------------
 
 ### `▢ CUENTAS OFICIALES`
 
 [ 🔗 ] https://www.atom.bio/theshadowbrokers-team
 
-### `▢ GRUPOS DE SOPORTE (NO DISPONIBLE)`
+### `▢ Instagram Y Grupo De Mi Creador `
 
-<a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(ES)_(NO_DISPONIBLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://www.instagram.com/cristoferrojasph" target="blank"><img src="https://img.shields.io/badge/Instagram_De_Mi_Creador)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
-<a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/SUPPORT_GROUP_(EN)_(NOT AVAILABLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://chat.whatsapp.com/IKeeFD8PDaS7rkyG7a12g1" target="blank"><img src="https://img.shields.io/badge/Grupo_De_Ventas_Pingui-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
-> [ ℹ️ ] En los grupos de soporte no se permiten bots.
+> [ ℹ️ ] Atencion En El Grupo De Ventas Solo Se Permite Al Pingui Bot , Otro Bot Sera Eliminado.
 
  ### `▢ BOTS OFICIALES (INACTIVOS)`
 
