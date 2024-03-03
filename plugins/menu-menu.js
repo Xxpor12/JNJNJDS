@@ -89,6 +89,7 @@ let menu =`
 *┃➤ Instagram : ${md} 😻*
 *┃➤ Activo : ${uptime} 😹*
 *┃➤ Usuarios :  ${rtotalreg}/${totalreg} 🌹*
+*┃➤ Yape : +51 936 994 155 💸*
  ╰━━━━━━━━━━━━━
 
   ╭━〔 *🐧 Pingui Adquirir 🐧* 〕
