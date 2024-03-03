@@ -38,9 +38,9 @@ global.Dzn = `
 𝗜𝗴 : https://www.instagram.com/liz._dz
 𝗡𝘂𝗺𝗯𝗲𝗿 : +54 9 11 5369-0592
 
-𝗡𝗮𝗺𝗲 : 
-𝗜𝗴 : https://www.instagram.com/
-𝗡𝘂𝗺𝗯𝗲𝗿 :
+𝗡𝗮𝗺𝗲 : Estefa
+𝗜𝗴 : https://www.instagram.com/estefa_shop.dzn
+𝗡𝘂𝗺𝗯𝗲𝗿 : +51 904 512 139
 
 𝗡𝗮𝗺𝗲 : 
 𝗜𝗴 : https://www.instagram.com/
