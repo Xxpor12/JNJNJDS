@@ -1,13 +1,13 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.Mixto16);
+  m.reply(global.Mixto18);
 };
-handler.command = /^(Mixto16)$/i;
+handler.command = /^(Mixto18)$/i;
 export default handler;
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
 
-global.Mixto16 = `
+global.Mixto18 = `
 ╭┈┈ ๑🐧๑ •• 𝗠𝗜𝗫𝗧𝗢 •• ๑🐧๑
 │
 │    𝗦𝗮𝗹𝗮 𝗦𝗼𝗿𝘁𝗲𝗮𝗱𝗮 𝗘𝗻𝘁𝗿𝗲 𝗟𝘅𝘀 𝟰 𝗧𝗶𝘁𝘂𝗹𝗮𝗿𝗲𝘀
