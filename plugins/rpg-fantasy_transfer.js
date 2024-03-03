@@ -1,3 +1,5 @@
+// Código elaborado por: https://github.com/GataNina-Li
+
 import fetch from 'node-fetch'  
 import fs from 'fs'
 const fantasyDBPath = './fantasy.json'
@@ -26,7 +28,7 @@ character = text.trim()
 let [userText, characterText] = text.split(/[|,&\/\\]+/).map(v => v.trim())
 if (!userText || !characterText) {
 fake = { contextInfo: { externalAdReply: { title: `❌ Parámetros incompletos`, body: `Algo no salió bien...`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() }}}
-return conn.reply(m.chat, `*Use un caracter en medio del Usuario y personaje*\n\n> *Caracteres aceptados:*\n\`(|), (,), (\\), (&), y (/)\`\n\n> *Ejemplo:*\n\`${usedPrefix + command} Usuario | Personaje\`\n\n> *Para ver sus persoanjes, escriba:*\n\`${usedPrefix}fantasymy o ${usedPrefix}fymy\``, m, fake)
+return conn.reply(m.chat, `*Use un caracter en medio del Usuario y personaje*\n\n> *Caracteres aceptados:*\n\`(|), (,), (\\), (&), y (/)\`\n\n> *Ejemplo:*\n\`${usedPrefix + command} Usuario | Personaje\`\n\n> *Para ver tus Personajes, escriba:*\n\`${usedPrefix}fantasymy o ${usedPrefix}fymy\``, m, fake)
 }
 let isUserNumber = userText.endsWith('@s.whatsapp.net')
 let isCharNumber = characterText.endsWith('@s.whatsapp.net')
@@ -47,12 +49,12 @@ user = characterText.replace(/[^\d]/g, '') + '@s.whatsapp.net'
 character = userText
 } else {
 fake = { contextInfo: { externalAdReply: { title: `❌ Parámetros incompletos`, body: `Algo no salió bien...`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() }}}
-return conn.reply(m.chat, `*Use un caracter en medio del Usuario y personaje*\n\n> *Caracteres aceptados:*\n\`(|), (,), (\\), (&), y (/)\`\n\n> *Ejemplo:*\n\`${usedPrefix + command} Usuario | Personaje\`\n\n> *Para ver tus persoanjes, escriba:*\n\`${usedPrefix}fantasymy o ${usedPrefix}fymy\``, m, fake)
+return conn.reply(m.chat, `*Use un caracter en medio del Usuario y personaje*\n\n> *Caracteres aceptados:*\n\`(|), (,), (\\), (&), y (/)\`\n\n> *Ejemplo:*\n\`${usedPrefix + command} Usuario | Personaje\`\n\n> *Para ver tus Personajes, escriba:*\n\`${usedPrefix}fantasymy o ${usedPrefix}fymy\``, m, fake)
 }}} else {
 if (m.quoted && !text) {
-return conn.reply(m.chat, `*Responda a un mensaje de @${m.quoted.sender.split('@')[0]} escribiendo el nombre o código del personaje*\n\n> *Para ver tus persoanjes, escriba:*\n\`${usedPrefix}fantasymy o ${usedPrefix}fymy\``, m, { mentions: [m.quoted.sender] })
+return conn.reply(m.chat, `*Responda a un mensaje de @${m.quoted.sender.split('@')[0]} escribiendo el nombre o código del personaje*\n\n> *Para ver tus Personajes, escriba:*\n\`${usedPrefix}fantasymy o ${usedPrefix}fymy\``, m, { mentions: [m.quoted.sender] })
 }
-return conn.reply(m.chat, `*Etiqueta o escriba el número del usuario y nombre o código del personaje*\n\n> *Ejemplo:*\n\`${usedPrefix + command} usuario | personaje\`\n\n> _También puede responder al mensaje del usuario escribiendo el nombre o código del personaje_\n\n> *Para ver tus persoanjes, escriba:*\n\`${usedPrefix}fantasymy o ${usedPrefix}fymy\``, m)
+return conn.reply(m.chat, `*Etiqueta o escriba el número del usuario y nombre o código del personaje*\n\n> *Ejemplo:*\n\`${usedPrefix + command} usuario | personaje\`\n\n> _También puede responder al mensaje del usuario escribiendo el nombre o código del personaje_\n\n> *Para ver tus Personajes, escriba:*\n\`${usedPrefix}fantasymy o ${usedPrefix}fymy\``, m)
 }
 
 let senderIndex = fantasyDB.findIndex(obj => obj.hasOwnProperty(userId))
@@ -62,7 +64,7 @@ if (recipientIndex == -1) return conn.reply(m.chat, `*El usuario @${user.split('
 
 let senderData = fantasyDB[senderIndex][userId]
 let characterIndex = senderData.fantasy.findIndex(obj => obj.name == character || obj.id == character)
-if (characterIndex == -1) return conn.reply(m.chat, `*No hemos encontrado "${character}"*\n\n> *Motivo:* _Puede deberse a que no tiene ese personaje o está mal escrito el nombre o código del personaje_\n\n> *Para ver tus persoanjes, escriba:*\n\`${usedPrefix}fantasymy o ${usedPrefix}fymy\``, m)
+if (characterIndex == -1) return conn.reply(m.chat, `*No hemos encontrado "${character}"*\n\n> *Motivo:* _Puede deberse a que no tiene ese personaje o está mal escrito el nombre o código del personaje_\n\n> *Para ver tus Personajes, escriba:*\n\`${usedPrefix}fantasymy o ${usedPrefix}fymy\``, m)
 
 let id_message
 if (characterIndex != -1) {
@@ -127,5 +129,5 @@ return conn.reply(m.chat, `La transferencia de *"${senderData.fantasy[characterI
 return
 }
 
-handler.command = /^(fantasytransfer|fytransfer|fydar)$/i
+handler.command = /^(fantasytransfer|fytransfer|fyentregar|fytr)$/i
 export default handler

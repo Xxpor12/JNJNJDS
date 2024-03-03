@@ -1,5 +1,8 @@
+// Código elaborado por: https://github.com/GataNina-Li
+
 const fantasyDBPath = './fantasy.json'
 let usuarioExistente, logro, fake = null
+
 export async function before(m,{ conn }) {
 const userId = m.sender
 let user = global.db.data.users[userId]
@@ -79,8 +82,8 @@ user.fantasy_character5 = 0
 // Verifica si el usuario existe en la base de datos y si tiene la estructura fantasy
 usuarioExistente = fantasyDB.find((user) => Object.keys(user)[0] === userId && user[userId].fantasy)
 if (usuarioExistente && user.fantasy_character === 0) {
-fake = { contextInfo: { externalAdReply: { title: `🌟 NUEVO LOGRO 🌟`, body: `Califica persoanjes, es gratis ❤️`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() }}}
-await conn.reply(m.chat, `\`\`\`Desafío desbloqueado 🔓\`\`\`\n\n*${conn.getName(userId)} ahora puedes calificar personajes*`, m, fake)
+fake = { contextInfo: { externalAdReply: { title: `🌟 NUEVO LOGRO 🌟`, body: `Califica personajes, es gratis ❤️`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() }}}
+await conn.reply(m.chat, `\`\`\`Desafío desbloqueado 🔓\`\`\`\n\n*${conn.getName(userId)} ahora puedes calificar personajes*`, null, fake)
 user.fantasy_character++
 }
 
@@ -125,7 +128,7 @@ user[reward] += multipliedAmount
 logro += `\n*${rpgshop.emoticon(reward)}* » \`\`\`${multipliedAmount}\`\`\``
 }}  
 if (conditionMet) {
-await conn.reply(m.chat, logro, m, fake)
+await conn.reply(m.chat, logro + `\n\n> Mira tus avances usando *#fymy*`, null, fake)
 user.fantasy_character2++
 }}
 
@@ -134,7 +137,7 @@ usuarioExistente = fantasyDB.find((user) => Object.keys(user)[0] === userId)
 if (usuarioExistente) {
 const flowArray = usuarioExistente[userId].flow || []
 const likesCount = flowArray.filter(voto => voto.like).length
-fake = { contextInfo: { externalAdReply: { title: `SIGUE DANDO 👍`, body: `Califica persoanjes, es gratis 👍`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() }}}
+fake = { contextInfo: { externalAdReply: { title: `SIGUE DANDO 👍`, body: `Califica personajes, es gratis 👍`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() }}}
 logro = `\`\`\`Desafío desbloqueado 🔓\`\`\`\n\n*${conn.getName(userId)} recompensa por calificar ${likesCount} veces "👍"*\n\n🌟 *Recompensas:* \`\`\`(X${user.fantasy_character3 + 1})\`\`\``
 const conditionMet = [
 (likesCount === 3 && user.fantasy_character3 === 0),
@@ -176,7 +179,7 @@ user[reward] += multipliedAmount
 logro += `\n*${rpgshop.emoticon(reward)}* » \`\`\`${multipliedAmount}\`\`\``
 }}  
 if (conditionMet) {
-await conn.reply(m.chat, logro, m, fake)
+await conn.reply(m.chat, logro + `\n\n> Mira tus avances usando *#fymy*`, null, fake)
 user.fantasy_character3++
 }}
 
@@ -185,7 +188,7 @@ usuarioExistente = fantasyDB.find((user) => Object.keys(user)[0] === userId)
 if (usuarioExistente) {
 const flowArray = usuarioExistente[userId].flow || []
 const superlikesCount = flowArray.filter(voto => voto.superlike).length
-fake = { contextInfo: { externalAdReply: { title: `SIGUE DANDO ❤️`, body: `Califica persoanjes, es gratis ❤️`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() }}}
+fake = { contextInfo: { externalAdReply: { title: `SIGUE DANDO ❤️`, body: `Califica personajes, es gratis ❤️`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() }}}
 logro = `\`\`\`Desafío desbloqueado 🔓\`\`\`\n\n*${conn.getName(userId)} recompensa por calificar ${superlikesCount} veces "❤️"*\n\n🌟 *Recompensas:* \`\`\`(X${user.fantasy_character4 + 1})\`\`\``
 const conditionMet = [
 (superlikesCount === 3 && user.fantasy_character4 === 0),
@@ -227,7 +230,7 @@ user[reward] += multipliedAmount
 logro += `\n*${rpgshop.emoticon(reward)}* » \`\`\`${multipliedAmount}\`\`\``
 }}  
 if (conditionMet) {
-await conn.reply(m.chat, logro, m, fake)
+await conn.reply(m.chat, logro + `\n\n> Mira tus avances usando *#fymy*`, null, fake)
 user.fantasy_character4++
 }}
 
@@ -236,7 +239,7 @@ usuarioExistente = fantasyDB.find((user) => Object.keys(user)[0] === userId)
 if (usuarioExistente) {
 const flowArray = usuarioExistente[userId].flow || []
 const disLikeCount = flowArray.filter(voto => voto.dislike).length
-fake = { contextInfo: { externalAdReply: { title: `SIGUE DANDO 👎`, body: `Califica persoanjes, es gratis 😅`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() }}}
+fake = { contextInfo: { externalAdReply: { title: `SIGUE DANDO 👎`, body: `Califica personajes, es gratis 😅`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() }}}
 logro = `\`\`\`Desafío desbloqueado 🔓\`\`\`\n\n*${conn.getName(userId)} recompensa por calificar ${disLikeCount} veces "👎"*\n\n🌟 *Recompensas:* \`\`\`(X${user.fantasy_character5 + 1})\`\`\`` 
 const conditionMet = [
 (disLikeCount === 3 && user.fantasy_character5 === 0),
@@ -278,7 +281,7 @@ user[reward] += multipliedAmount
 logro += `\n*${rpgshop.emoticon(reward)}* » \`\`\`${multipliedAmount}\`\`\``
 }}  
 if (conditionMet) {
-await conn.reply(m.chat, logro, m, fake)
+await conn.reply(m.chat, logro + `\n\n> Mira tus avances usando *#fymy*`, null, fake)
 user.fantasy_character5++
 }}
 
