@@ -152,6 +152,7 @@ let menu =`
    ╭━〔 *🐧 Pingui Edits 🐧* 〕
  *┃➤* _${usedPrefix}ApkEdit_
  *┃➤* _${usedPrefix}DriveEdits_
+ *┃➤* _${usedPrefix}Dzn / Servicio De Dzn - Comprar Edits_
   ╰━━━━━━━━━━━━━
 
    ╭━〔 *🐧 Pingui Tarjetas 🐧* 〕
