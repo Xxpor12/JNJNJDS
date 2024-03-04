@@ -1,22 +1,19 @@
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `${mg}*𝙀𝙨𝙘𝙧𝙞𝙗𝙖 𝙚𝙡 𝙧𝙚𝙥𝙤𝙧𝙩𝙚*\n\n*𝙀𝙅𝙀𝙈𝙋𝙇𝙊:*\n*${usedPrefix + command} el comando ${usedPrefix}infobot no funciona.*\n\n*𝙒𝙧𝙞𝙩𝙚 𝙩𝙝𝙚 𝙧𝙚𝙥𝙤𝙧𝙩*\n\n*𝙀𝙓𝘼𝙈𝙋𝙇𝙀:*\n*${usedPrefix + command} the command ${usedPrefix}owner it does not work.*`
-if (text.length < 8) throw `${fg} ✨ *Mínimo 10 caracteres para hacer El Reporte.*\n\n✨ *Minimum 10 characters to make the Report.*`
-if (text.length > 1000) throw `${fg} 😼 *Máximo 1000 caracteres para hacer El Reporte.*\n\n😼 *Maximum 1000 characters to make the Report.*`
-let teks = `*╭━━[ 𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏 ]━━━⬣*\n*┃*\n*┃* *𝙉𝙐𝙈𝙀𝙍𝙊 | 𝙉𝙐𝙈𝘽𝙀𝙍*\n┃ ✦ Wa.me/${m.sender.split`@`[0]}\n*┃*\n*┃* *𝙈𝙀𝙉𝙎𝘼𝙅𝙀 | 𝙈𝙀𝙎𝙎𝘼𝙂𝙀*\n*┃* ✦ ${text}\n*┃*\n*╰━━━━━━━━━━━━━━━━━━⬣*`
-//conn.reply('19393844141@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
-//contextInfo: {
-//mentionedJid: [m.sender]
-//}})
-conn.reply('51936994155@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
-contextInfo: {
-mentionedJid: [m.sender]
-}})
-  m.reply(`*El reporte ha sido enviado a mí Creadora. Tendrá una respuesta pronto. De ser Falso será Ignorado el reporte.*\n\n*The report has been sent to my Creator. You will have an answer soon. If false, the report will be ignored.*`)
+var handler = async (m, { conn, text, usedPrefix, command }) => {
+
+if (!text) return conn.reply(m.chat, `🎌 *Escriba su reporte*\n\nEjemplo, !${command} el comando !infobot no funciona`, m, fake, )
+if (text.length < 10) return conn.reply(m.chat, `🚩 *Mínimo 10 caracteres para hacer el reporte*`, m, fake, )
+if (text.length > 200) return conn.reply(m.chat, `🚩 *Máximo 200 caracteres para hacer el reporte.*`, m, fake, )
+
+let teks = `⚠️ *Reporte* ⚠️\n\n⬡ *Numero*\nWa.me/${m.sender.split`@`[0]}\n\n⬡ *Mensaje*\n${text}`
+conn.reply('51981983121@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, { contextInfo: { mentionedJid: [m.sender] }})
+
+conn.reply(m.chat, `🚩 *El reporte se envió a mi creador, tendrá una respuesta más tarde*`, m, fake, )
 
 }
+handler.help = ['reporte', 'request']
+handler.tags = ['bot']
+handler.command = /^(report|request|reporte|bugs|bug|report-owner|reportes|reportar)$/i
 
-handler.help = ['reporte', 'request'].map(v => v + ' <teks>')
-handler.tags = ['info']
-handler.exp = 25 
-handler.command = /^(report|request|reporte|bugs|bug|report-owner|reportes|reportar)$/i 
+handler.register = true
+
 export default handler
