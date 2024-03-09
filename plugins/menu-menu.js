@@ -113,6 +113,7 @@ let menu =`
   ╰━━━━━━━━━━━━━
   
   ╭━〔 *🐧 Pingui Free Fire 🐧* 〕
+ *┃➤* _${usedPrefix}Lista3 / Lista De Actividades_
  *┃➤* _${usedPrefix}Masc18 / Lista Masc 18_
  *┃➤* _${usedPrefix}Masc20 / Lista Masc 20_
  *┃➤* _${usedPrefix}Masc22 / Lista Masc 22_
