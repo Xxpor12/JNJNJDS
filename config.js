@@ -13,7 +13,8 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["51981983121", '𝗣𝗶𝗻𝗴𝘂𝗶 🐧', true], //𝗣𝗶𝗻𝗴𝘂𝗶 𝗕𝗼𝘁 🐧
+["51926933818", '𝗣𝗶𝗻𝗴𝘂𝗶 🐧', true], //𝗣𝗶𝗻𝗴𝘂𝗶 𝗕𝗼𝘁 🐧
+["56949598720", '𝗣𝗶𝗻𝗴𝘂𝗶 🐧', true],
 ["573112811966"]]
 
 global.mods = []
@@ -130,34 +131,34 @@ global.vs = "1"
 global.vsJB = "1"
 global.gt = "🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 🐧"
 
-global.yt = "https://www.instagram.com/cristoferrojasph"
-global.yt2 = "https://www.instagram.com/cristoferrojasph"
-global.ig = "https://www.instagram.com/cristoferrojasph"
-global.md = "https://www.instagram.com/cristoferrojasph"
-global.fb = "https://www.instagram.com/cristoferrojasph"
-global.tk = "https://www.instagram.com/cristoferrojasph"
-global.ths = "https://www.instagram.com/cristoferrojasph"
+global.yt = "https://www.instagram.com/comunidad.pingui.pe"
+global.yt2 = "https://www.instagram.com/comunidad.pingui.pe"
+global.ig = "https://www.instagram.com/comunidad.pingui.pe"
+global.md = "https://www.instagram.com/comunidad.pingui.pe"
+global.fb = "https://www.instagram.com/comunidad.pingui.pe"
+global.tk = "https://www.instagram.com/comunidad.pingui.pe"
+global.ths = "https://www.instagram.com/comunidad.pingui.pe"
 global.paypal = 'https://wa.link/tpa35w'
 global.asistencia = 'https://wa.link/tpa35w' //Contacto
 global.bot = 'https://wa.link/tpa35w' //🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 🐧 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 
 
-global.nna = 'https://www.instagram.com/cristoferrojasph' // Cuentas
-global.nn2 = 'https://www.instagram.com/cristoferrojasph' // Grupo tg GataBot
-global.nna2 = 'https://www.instagram.com/cristoferrojasph' // Help
-global.nn = 'https://www.instagram.com/cristoferrojasph' // Grupo 1
-global.nnn = 'https://www.instagram.com/cristoferrojasph' // Grupo 2
-global.nnnt = 'https://www.instagram.com/cristoferrojasph' // Grupo 3
-global.nnntt = 'https://www.instagram.com/cristoferrojasph' // Grupo 4
-global.nnnttt = 'https://www.instagram.com/cristoferrojasph' // Grupo 5
-global.nnnttt1 = 'https://www.instagram.com/cristoferrojasph' // Grupo 6 COL
-global.nnnttt2 = 'https://www.instagram.com/cristoferrojasph' // Grupo 7 COL
-global.nnnttt3 = 'https://www.instagram.com/cristoferrojasph' // Grupo 8 COL
-global.nnnttt4 = 'https://www.instagram.com/cristoferrojasph' // Grupo 9 COL
-global.nnnttt5 = 'https://www.instagram.com/cristoferrojasph' // MULTI - BOTS
-global.nnnttt6 = 'https://www.instagram.com/cristoferrojasph' // A.T.M.M
-global.channel1 = 'https://www.instagram.com/cristoferrojasph'
-global.channel2 = 'https://www.instagram.com/cristoferrojasph'
-global.channel3 = 'https://chat.whatsapp.com/IKeeFD8PDaS7rkyG7a12g1'
+global.nna = 'https://www.instagram.com/comunidad.pingui.pe' // Cuentas
+global.nn2 = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo tg GataBot
+global.nna2 = 'https://www.instagram.com/comunidad.pingui.pe' // Help
+global.nn = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo 1
+global.nnn = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo 2
+global.nnnt = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo 3
+global.nnntt = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo 4
+global.nnnttt = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo 5
+global.nnnttt1 = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo 6 COL
+global.nnnttt2 = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo 7 COL
+global.nnnttt3 = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo 8 COL
+global.nnnttt4 = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo 9 COL
+global.nnnttt5 = 'https://www.instagram.com/comunidad.pingui.pe' // MULTI - BOTS
+global.nnnttt6 = 'https://www.instagram.com/comunidad.pingui.pe' // A.T.M.M
+global.channel1 = 'https://www.instagram.com/comunidad.pingui.pe'
+global.channel2 = 'https://www.instagram.com/comunidad.pingui.pe'
+global.channel3 = 'https://chat.whatsapp.com/Ghf2fHMzBLA1iuYAXSTOb4'
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.rg = ''
@@ -189,7 +190,7 @@ global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
 global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
 global.waittttt = "*✅ _Completado | Filled..._ ▬▬▬▬▬▬▬*"
-global.nomorown = "51981983121"
+global.nomorown = "51926933818"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
