@@ -86,6 +86,7 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 let menu =`
  ╭━〔 *🐧 Pingui Creador 🐧* 〕
 *┃➤ Creador : Pingui 🐧*
+*┃➤ Paypal : ${paypal} 💸*
 *┃➤ Instagram : ${md} 😻*
 *┃➤ Activo : ${uptime} 😹*
 *┃➤ Usuarios :  ${rtotalreg}/${totalreg} 🌹*
