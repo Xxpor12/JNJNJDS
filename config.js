@@ -138,9 +138,9 @@ global.md = "https://www.instagram.com/comunidad.pingui.pe"
 global.fb = "https://www.instagram.com/comunidad.pingui.pe"
 global.tk = "https://www.instagram.com/comunidad.pingui.pe"
 global.ths = "https://www.instagram.com/comunidad.pingui.pe"
-global.paypal = 'https://wa.link/tpa35w'
-global.asistencia = 'https://wa.link/tpa35w' //Contacto
-global.bot = 'https://wa.link/tpa35w' //🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 🐧 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 
+global.paypal = 'https://www.paypal.com/myaccount/summary'
+global.asistencia = 'https://wa.me/51926933818?text=Hola%20Pingui%20Deseo%20Comprar%20El%20Bot%20:3' //Contacto
+global.bot = 'https://wa.me/51926933818?text=Hola%20Pingui%20Deseo%20Comprar%20El%20Bot%20:3' //🐧 𝗣𝗶𝗻𝗴𝘂𝗶𝗕𝗼𝘁-𝗠𝗗 🐧 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 
 
 global.nna = 'https://www.instagram.com/comunidad.pingui.pe' // Cuentas
 global.nn2 = 'https://www.instagram.com/comunidad.pingui.pe' // Grupo tg GataBot
@@ -158,7 +158,7 @@ global.nnnttt5 = 'https://www.instagram.com/comunidad.pingui.pe' // MULTI - BOTS
 global.nnnttt6 = 'https://www.instagram.com/comunidad.pingui.pe' // A.T.M.M
 global.channel1 = 'https://www.instagram.com/comunidad.pingui.pe'
 global.channel2 = 'https://www.instagram.com/comunidad.pingui.pe'
-global.channel3 = 'https://chat.whatsapp.com/Ghf2fHMzBLA1iuYAXSTOb4'
+global.channel3 = 'https://chat.whatsapp.com/Ghf2fHMzBLA1iuYAXstOb4'
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.rg = ''
