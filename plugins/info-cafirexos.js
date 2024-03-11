@@ -27,7 +27,7 @@ https://chat.whatsapp.com/IKeeFD8PDaS7rkyG7a12g1
 contacto@cafirexos.com
 
 🧑‍💻 *Contacto (Cristhofer) Si Deseas Comprar Server 24/7*
-https://wa.me/51981983121
+https://wa.me/51926933818
 `
 await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
 contextInfo: {
