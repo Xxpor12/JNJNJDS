@@ -1,7 +1,7 @@
 const handler = async (m, {conn}) => {
   m.reply(global.publicidad);
 };
-handler.command = /^(comulink)$/i;
+handler.command = /^(pinguicomu)$/i;
 export default handler;
 
 global.publicidad = `
