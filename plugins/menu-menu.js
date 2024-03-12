@@ -96,7 +96,7 @@ let menu =`
  *┃➤* _${usedPrefix}Vendedores / Vendedores ofc_
  *┃➤* _${usedPrefix}Preciobot / Comprar El Bot_
  *┃➤* _${usedPrefix}Proveedor / Deseas Vender Pingui ?_
- *┃➤* _${usedPrefix}Publicidad / Publicidad Del Ventas Y Sorteos_
+ *┃➤* _${usedPrefix}ComuLink / Publicidad De La Comunidad Pingui_
  *┃➤* _${usedPrefix}Publicidadbot / Publicidad Del Bot_
   ╰━━━━━━━━━━━━━
   
