@@ -85,10 +85,10 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 let menu =`
   ╭━〔 *🐧 Pingui Pornero 🐧* 〕
- *┃➤* _${usedPrefix}ChicasVideos_
- *┃➤* _${usedPrefix}PackMixto_
+ *┃➤* _${usedPrefix}Manuelaqm_
+ *┃➤* _${usedPrefix}OnlyVip2_
  *┃➤* _${usedPrefix}Booty2_
- *┃➤* _${usedPrefix}Booty_
+ *┃➤* _${usedPrefix}OnlyVip_
  *┃➤* _${usedPrefix}Nsfwloli_
  *┃➤* _${usedPrefix}Nsfwfoot_
  *┃➤* _${usedPrefix}Nsfwass_
