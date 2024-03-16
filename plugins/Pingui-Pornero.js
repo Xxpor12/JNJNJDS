@@ -1,5 +1,5 @@
 let handler = async (m, {conn, command}) => {
-  let url = pack[Math.floor(Math.random() * pack.length)];
+  let url = manuelaqm[Math.floor(Math.random() * manuelaqm.length)];
     await conn.sendFile( 
      m.chat, 
      url, 
@@ -7,12 +7,12 @@ let handler = async (m, {conn, command}) => {
      ` 
  𝗠𝗮𝗻𝘂𝗲𝗹𝗮 𝗤𝗺 𝗢𝗻𝗹𝘆`.trim(), m)
 };
-handler.help = ["Manuelaqm"];
+handler.help = ["manuelaqm"];
 handler.tags = ["internet"];
-handler.command = /^(Manuelaqm)$/i;
+handler.command = /^(manuelaqm)$/i;
 export default handler;
 
-global.Manuelaqm = [
+global.manuelaqm = [
   "https://telegra.ph/file/fcf61b400da70a341f8a9.mp4",
   "https://telegra.ph/file/d8a48d5f2861de12c7e08.mp4",
   "https://telegra.ph/file/0d5ae9f9a64e3ce6d249f.mp4",
