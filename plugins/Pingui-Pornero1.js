@@ -12,7 +12,7 @@ handler.tags = ["internet"];
 handler.command = /^(OnlyVip)$/i;
 export default handler;
 
-global.pack = [
+global.OnlyVip = [
   "https://telegra.ph/file/692f94f8fde456320011c.mp4",
   "https://telegra.ph/file/1e070db0e2a3f4f93baec.mp4",
   "https://telegra.ph/file/456f8710e3f9e9bf70e00.mp4",
