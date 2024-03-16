@@ -1,5 +1,5 @@
 let handler = async (m, {conn, command}) => {
-  let url = pack[Math.floor(Math.random() * pack.length)];
+  let url = OnlyVip2[Math.floor(Math.random() * OnlyVip2.length)];
     await conn.sendFile( 
      m.chat, 
      url, 
