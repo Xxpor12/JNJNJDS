@@ -12,7 +12,7 @@ handler.tags = ["internet"];
 handler.command = /^(Manuelaqm)$/i;
 export default handler;
 
-global.pack = [
+global.Manuelaqm = [
   "https://telegra.ph/file/fcf61b400da70a341f8a9.mp4",
   "https://telegra.ph/file/d8a48d5f2861de12c7e08.mp4",
   "https://telegra.ph/file/0d5ae9f9a64e3ce6d249f.mp4",
